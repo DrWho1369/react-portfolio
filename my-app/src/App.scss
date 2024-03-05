@@ -2,37 +2,27 @@ $primary-color: #6f42c1;
 
 @import 'animate.css';
 
-@font-face {
-  font-family: 'Press Start 2P';
-  src: url('./assets/fonts/PressStart2P-Regular.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Rajdhani-Bold';
-  src: url('./assets/fonts/Rajdhani-Bold.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Rajdhani-Light';
-  src: url('./assets/fonts/Rajdhani-Light.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Rajdhani-Medium';
-  src: url('./assets/fonts/Rajdhani-Medium.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Rajdhani-Regular';
-  src: url('./assets/fonts/Rajdhani-Regular.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Rajdhani-SemiBold';
-  src: url('./assets/fonts/Rajdhani-SemiBold.ttf') format('ttf');
-}
-
 imput,
 textarea {
-  font-family: 'Rajdhani-Regular';
+  font-family: 'KodeMono-Regular';
+}
+
+@font-face {
+  font-family: 'KodeMono-Bold';
+  src: url('./assets/fonts/KodeMono-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'KodeMono-Medium';
+  src: url('./assets/fonts/KodeMono-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'KodeMono-Regular';
+  src: url('./assets/fonts/KodeMono-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'KodeMono-SemiBold';
+  src: url('./assets/fonts/KodeMono-SemiBold.ttf') format('ttf');
 }

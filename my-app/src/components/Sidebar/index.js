@@ -3,6 +3,7 @@ import './index.scss'
 import LogoM from '../../assets/images/logo-m.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -32,8 +33,17 @@ const Sidebar = () => (
     </nav>
     <ul>
       <li>
-        <a>
-          <FontAwesomeIcon icon={fafaLinkedin} color="#4d4d4e" />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/thomas-baker-anutr-0b9758222/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a target="_blank" rel="noreferrer" href="https://github.com/DrWho1369">
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
       </li>
     </ul>
